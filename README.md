@@ -13,6 +13,13 @@
 - [fille_Video_Games_Sales.csv](./fille_Video_Games_Sales.csv): Conjunto de dados que a aplicação permite visualizar.
 - [screenshots](./screenshots): Pasta com imagens de exemplo da aplicação.
 
+## Depêndencias
+
+Para executar o projeto, são necessárias as seguintes bibliotecas de python: jupyter notebook, ipywidgets, plotly, voila. Elas podem ser instaladas a partir dos comandos:
+
+    pip install notebook
+    pip install plotly voila "ipywidgets>=7.5"
+
 ## Sobre o Projeto
 
 Esse projeto é a etapa final do projeto da disciplina Visualização Computacinal. Nele, foi desenvolvido uma aplicação para a visualização de um conjunto de dados, o qual escolhemos [Video Games Sales with Ratings](https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings). Nas etapas anteriores, foi realizada a exploração e o pré-processamento dos dados. Assim o arquivo [filled_Video_Games_Sales.csv](./filled_Video_Games_Sales.csv) foi feito com o conjunto já pré-processado.
